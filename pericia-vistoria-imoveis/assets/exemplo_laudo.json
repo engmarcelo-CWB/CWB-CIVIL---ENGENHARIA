@@ -1,0 +1,433 @@
+{
+ "tipo": "obra_inacabada",
+ "numero_laudo": "EXEMPLO-001",
+ "data_emissao": "2026-10-29",
+ "local_emissao": "Tijucas do Sul/PR",
+ "perito": {
+  "art": ""
+ },
+ "solicitante": {
+  "nome": "Fulano de Tal (exemplo)",
+  "documento": "000.000.000-00",
+  "qualidade": "Proprietário e contratante da obra",
+  "contato": "(41) 90000-0000"
+ },
+ "processo": {},
+ "finalidade": "Subsidiar a rescisão do contrato de empreitada e a contratação de novo executor para conclusão da obra.",
+ "pressupostos": [
+  "Os valores deste exemplo são ilustrativos e não correspondem a nenhuma tabela oficial."
+ ],
+ "imovel": {
+  "endereco": "Rua Exemplo, 100, Lote 5, Quadra B, Bairro Centro",
+  "municipio_uf": "Tijucas do Sul/PR",
+  "matricula": "00.000 — Registro de Imóveis da Comarca (exemplo)",
+  "tipologia": "Residência unifamiliar térrea",
+  "padrao": "Normal",
+  "sistema_construtivo": "Estrutura de concreto armado moldado in loco com alvenaria de vedação em blocos cerâmicos",
+  "pavimentos": 1,
+  "area_terreno": 360.0,
+  "area_construida": 98.5,
+  "area_equivalente": 98.5,
+  "idade": "Obra iniciada em 03/2026, paralisada em 08/2026",
+  "executor": "Construtora Exemplo Ltda",
+  "descricao": "Residência térrea com 3 dormitórios (1 suíte), sala, cozinha, banheiro social, área de serviço e varanda, conforme projeto arquitetônico aprovado.\n\nNa data da vistoria a obra encontrava-se paralisada, com estrutura, alvenarias e cobertura concluídas, instalações parcialmente executadas e revestimentos iniciados.",
+  "caracteristicas": [
+   {
+    "item": "Fundação",
+    "descricao": "Sapatas isoladas e vigas baldrame em concreto armado"
+   },
+   {
+    "item": "Cobertura",
+    "descricao": "Telha cerâmica sobre estrutura de madeira, beiral de 60 cm"
+   },
+   {
+    "item": "Esquadrias",
+    "descricao": "Alumínio na cor branca (janelas); madeira (portas internas)"
+   }
+  ],
+  "sistema_construtivo_tipo": "convencional",
+  "servicos_publicos": "Energia elétrica, água tratada, coleta de lixo, iluminação pública"
+ },
+ "documentos": [
+  {
+   "documento": "Projeto arquitetônico aprovado",
+   "situacao": "analisado",
+   "observacao": ""
+  },
+  {
+   "documento": "Memorial descritivo",
+   "situacao": "analisado",
+   "observacao": "Especifica piso porcelanato 60x60 em todos os ambientes"
+  },
+  {
+   "documento": "Contrato de empreitada global",
+   "situacao": "analisado",
+   "observacao": "Valor contratual sem cronograma físico-financeiro anexo"
+  },
+  {
+   "documento": "Projeto estrutural",
+   "situacao": "nao_disponibilizado",
+   "observacao": ""
+  },
+  {
+   "documento": "Boletins de medição",
+   "situacao": "nao_existente",
+   "observacao": "Pagamentos por etapa sem medição formal"
+  }
+ ],
+ "vistoria": {
+  "datas": [
+   "2026-10-20"
+  ],
+  "condicoes": "Tempo seco, boa iluminação natural; chuva intensa nos dois dias anteriores.",
+  "acompanhantes": [
+   "Solicitante"
+  ],
+  "instrumentos": [
+   "Trena a laser",
+   "Nível de bolha",
+   "Prumo",
+   "Régua de alumínio 2 m"
+  ],
+  "sistemas_inspecionados": [
+   "Estrutura aparente",
+   "Alvenarias",
+   "Cobertura",
+   "Esquadrias",
+   "Revestimentos",
+   "Pisos",
+   "Instalações aparentes"
+  ],
+  "sistemas_nao_inspecionados": [
+   {
+    "sistema": "Fundações",
+    "motivo": "Elementos enterrados; não houve prospecção"
+   }
+  ],
+  "informacoes_colhidas": "O solicitante informou que a obra foi paralisada em agosto de 2026 após desentendimento com o executor e que houve chuvas intensas na semana anterior à vistoria."
+ },
+ "constatacoes_gerais": "A obra encontra-se com estrutura, alvenarias e cobertura concluídas. O revestimento de argamassa foi executado em parte dos ambientes internos e não foi iniciado nas fachadas. Os pisos cerâmicos foram assentados em parte da área social.",
+ "anomalias": [
+  {
+   "id": "A-01",
+   "titulo": "Fissuras inclinadas nos cantos das janelas",
+   "local": "Dormitórios 1 e 2 — paredes com janela",
+   "sistema": "Vedação vertical",
+   "descricao": "Fissuras inclinadas a aproximadamente 45° partindo dos cantos inferiores e superiores das janelas, com abertura estimada visualmente inferior a 1 mm, atravessando o reboco.",
+   "causa": "A configuração das fissuras é compatível com concentração de tensões nos cantos dos vãos por ausência ou insuficiência de vergas e contravergas. Não foi possível confirmar a existência das peças sem prospecção.",
+   "origem": "endogena_execucao",
+   "natureza": "vicio_aparente",
+   "prioridade": 2,
+   "prazo": "Antes da execução da pintura",
+   "normas": [
+    "ABNT NBR 8545 — execução de vergas e contravergas em vãos de alvenaria"
+   ],
+   "recomendacao": "Prospecção em um dos vãos para verificar a existência de verga/contraverga. Confirmada a ausência: remoção do reboco no entorno, execução de verga e contraverga com transpasse adequado, recomposição do reboco com tela.",
+   "ensaios": [
+    "Prospecção (abertura) do reboco no entorno de um vão para verificação de verga e contraverga"
+   ],
+   "servicos": [
+    "3.2",
+    "3.3"
+   ],
+   "fotos": [
+    {
+     "arquivo": "fotos/foto01.jpg",
+     "legenda": "Dormitório 1 — fissura no canto da janela"
+    }
+   ],
+   "abertura_mm": 0.5
+  },
+  {
+   "id": "A-02",
+   "titulo": "Piso cerâmico com som cavo e desnível",
+   "local": "Sala e cozinha",
+   "sistema": "Piso",
+   "descricao": "Em aproximadamente 18 m² do piso já assentado, as placas apresentam som cavo à percussão e desníveis entre placas adjacentes (dentes) perceptíveis ao tato.",
+   "causa": "Indica preenchimento deficiente do tardoz e assentamento sem controle de nivelamento.",
+   "origem": "endogena_execucao",
+   "natureza": "vicio_aparente",
+   "prioridade": 2,
+   "normas": [
+    "ABNT NBR 13753 — revestimento de piso com placas cerâmicas e argamassa colante"
+   ],
+   "recomendacao": "Remoção das placas afetadas, limpeza do contrapiso e reassentamento com dupla colagem, controle de nivelamento e juntas.",
+   "servicos": [
+    "5.2"
+   ],
+   "fotos": [
+    {
+     "arquivo": "fotos/foto02.jpg",
+     "legenda": "Sala — placas com desnível"
+    }
+   ],
+   "especificado": "Porcelanato 60×60 assentado com dupla colagem (memorial descritivo, item 5.2)",
+   "executado": "Placas com som cavo e desníveis de até 2 mm entre placas (régua e calibre)",
+   "referencia_projeto": "Memorial descritivo — item 5.2"
+  },
+  {
+   "id": "A-03",
+   "titulo": "Armaduras expostas em pilar da varanda",
+   "local": "Varanda — pilar P7",
+   "sistema": "Estrutura",
+   "descricao": "Ninho de concretagem na base do pilar com exposição de armadura longitudinal em extensão aproximada de 15 cm, com início de oxidação superficial.",
+   "causa": "Falha de adensamento do concreto na base do pilar (segregação).",
+   "origem": "endogena_execucao",
+   "natureza": "vicio_aparente",
+   "prioridade": 1,
+   "prazo": "Imediato",
+   "normas": [
+    "ABNT NBR 6118:2023 — cobrimento nominal das armaduras e durabilidade",
+    "ABNT NBR 14931 — execução de estruturas de concreto (adensamento)"
+   ],
+   "recomendacao": "Escarificação até concreto são, limpeza e tratamento da armadura, aplicação de ponte de aderência e recomposição com argamassa estrutural de reparo.",
+   "servicos": [
+    "2.2"
+   ],
+   "fotos": [
+    {
+     "arquivo": "fotos/foto03.jpg",
+     "legenda": "Varanda — armadura exposta na base do pilar P7"
+    }
+   ]
+  }
+ ],
+ "analise": "O estágio físico verificado é compatível com a fase de revestimentos. As não conformidades constatadas têm origem na execução e são corrigíveis com os serviços orçados. A anomalia A-03 requer tratamento imediato para evitar a progressão da corrosão.",
+ "base_custos": {
+  "fonte": "EXEMPLO",
+  "uf": "PR",
+  "mes_referencia": "09/2026",
+  "regime": "nao_desonerado",
+  "bdi": 0.25,
+  "observacoes": [
+   "Preços ilustrativos — substitua pelos da tabela referencial indicada pelo solicitante."
+  ]
+ },
+ "servicos": [
+  {
+   "item": "1.1",
+   "etapa": "Fundações",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-01",
+   "descricao": "Fundação em sapatas e vigas baldrame (global por m² construído)",
+   "unidade": "m²",
+   "qtd_prevista": 98.5,
+   "qtd_aceita": 98.5,
+   "qtd_refazer": 0,
+   "preco_unitario": 160.0
+  },
+  {
+   "item": "2.1",
+   "etapa": "Estrutura",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-02",
+   "descricao": "Estrutura de concreto armado (pilares, vigas e laje)",
+   "unidade": "m³",
+   "qtd_prevista": 14.0,
+   "qtd_aceita": 14.0,
+   "qtd_refazer": 0,
+   "preco_unitario": 3100.0
+  },
+  {
+   "item": "2.2",
+   "etapa": "Estrutura",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-03",
+   "descricao": "Recuperação de ninho de concretagem com argamassa estrutural",
+   "unidade": "dm³",
+   "qtd_prevista": 0,
+   "qtd_aceita": 0,
+   "qtd_refazer": 6,
+   "preco_unitario": 95.0
+  },
+  {
+   "item": "3.1",
+   "etapa": "Vedações",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-04",
+   "descricao": "Alvenaria de vedação em bloco cerâmico 14 cm",
+   "unidade": "m²",
+   "qtd_prevista": 210.0,
+   "qtd_aceita": 210.0,
+   "qtd_refazer": 0,
+   "preco_unitario": 95.0
+  },
+  {
+   "item": "3.2",
+   "etapa": "Vedações",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-05",
+   "descricao": "Verga/contraverga moldada in loco em vão existente",
+   "unidade": "m",
+   "qtd_prevista": 0,
+   "qtd_aceita": 0,
+   "qtd_refazer": 9.6,
+   "preco_unitario": 85.0
+  },
+  {
+   "item": "3.3",
+   "etapa": "Revestimentos",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-06",
+   "descricao": "Recomposição de reboco com tela no entorno de vãos",
+   "unidade": "m²",
+   "qtd_prevista": 0,
+   "qtd_aceita": 0,
+   "qtd_refazer": 7.2,
+   "preco_unitario": 70.0,
+   "demolicao": {
+    "fonte": "EXEMPLO",
+    "codigo": "EX-07",
+    "descricao": "Remoção de reboco",
+    "unidade": "m²",
+    "preco_unitario": 18.0
+   }
+  },
+  {
+   "item": "4.1",
+   "etapa": "Revestimentos",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-08",
+   "descricao": "Chapisco e reboco interno",
+   "unidade": "m²",
+   "qtd_prevista": 380.0,
+   "qtd_aceita": 190.0,
+   "qtd_refazer": 0,
+   "preco_unitario": 52.0
+  },
+  {
+   "item": "4.2",
+   "etapa": "Revestimentos",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-09",
+   "descricao": "Chapisco e reboco externo",
+   "unidade": "m²",
+   "qtd_prevista": 150.0,
+   "qtd_aceita": 0,
+   "qtd_refazer": 0,
+   "preco_unitario": 68.0
+  },
+  {
+   "item": "5.1",
+   "etapa": "Pisos",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-10",
+   "descricao": "Contrapiso e=4 cm",
+   "unidade": "m²",
+   "qtd_prevista": 85.0,
+   "qtd_aceita": 85.0,
+   "qtd_refazer": 0,
+   "preco_unitario": 48.0
+  },
+  {
+   "item": "5.2",
+   "etapa": "Pisos",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-11",
+   "descricao": "Piso porcelanato 60x60 assentado com argamassa AC-III",
+   "unidade": "m²",
+   "qtd_prevista": 85.0,
+   "qtd_aceita": 22.0,
+   "qtd_refazer": 18.0,
+   "preco_unitario": 135.0,
+   "demolicao": {
+    "fonte": "EXEMPLO",
+    "codigo": "EX-12",
+    "descricao": "Remoção de piso cerâmico",
+    "unidade": "m²",
+    "preco_unitario": 22.0
+   }
+  },
+  {
+   "item": "6.1",
+   "etapa": "Esquadrias",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-13",
+   "descricao": "Janela de alumínio de correr 1,20 x 1,20 m com vidro",
+   "unidade": "un",
+   "qtd_prevista": 6,
+   "qtd_aceita": 6,
+   "qtd_refazer": 0,
+   "preco_unitario": null
+  },
+  {
+   "item": "7.1",
+   "etapa": "Pintura",
+   "fonte": "EXEMPLO",
+   "codigo": "EX-14",
+   "descricao": "Pintura acrílica interna 2 demãos com selador",
+   "unidade": "m²",
+   "qtd_prevista": 640.0,
+   "qtd_aceita": 0,
+   "qtd_refazer": 0,
+   "preco_unitario": 28.0
+  }
+ ],
+ "materiais_nao_incorporados": [
+  {
+   "descricao": "Porcelanato 60x60 (caixas fechadas)",
+   "unidade": "m²",
+   "quantidade": 30,
+   "estado": "Bom, armazenado coberto",
+   "valor_unitario": 75.0
+  }
+ ],
+ "recomendacoes_gerais": [
+  "Proteger as armaduras expostas e as esperas até a retomada da obra.",
+  "Exigir do novo executor ART de execução e cronograma físico-financeiro."
+ ],
+ "conclusao": "Na data da vistoria, a obra apresentava percentual executado e aceito conforme quadro de síntese, com não conformidades de execução que devem ser corrigidas antes da retomada dos serviços de acabamento. O custo para conclusão e correção consta da planilha anexa, na data-base indicada.",
+ "programa": {
+  "orgao": "Exemplo — programa de retomada de obras",
+  "instrumento": "Contrato de empreitada nº 00/2026 (exemplo)",
+  "executor": "Construtora Exemplo Ltda",
+  "valor_pactuado": 180000.0,
+  "prazo": "180 dias",
+  "data_inicio": "2026-03-02",
+  "data_paralisacao": "2026-08-15",
+  "percentual_informado": 75,
+  "fonte_percentual": "último boletim de medição do executor",
+  "situacao": "Paralisada",
+  "explicacao_diferenca": "A diferença decorre principalmente do piso e das recuperações estruturais, medidos como executados pelo executor mas não aceitos tecnicamente por apresentarem vícios."
+ },
+ "situacao_sistemas": [
+  {
+   "sistema": "Fundações",
+   "situacao": "concluido",
+   "descricao": "Sapatas e vigas baldrame executadas (verificação visual parcial)."
+  },
+  {
+   "sistema": "Estrutura",
+   "situacao": "concluido_com_vicios",
+   "descricao": "Pilares, vigas e laje executados; ninho de concretagem no pilar P7."
+  },
+  {
+   "sistema": "Vedação vertical",
+   "situacao": "concluido_com_vicios",
+   "descricao": "Alvenarias concluídas; fissuras nos cantos das janelas."
+  },
+  {
+   "sistema": "Revestimentos",
+   "situacao": "parcial",
+   "descricao": "Reboco interno em 50% da área; externo não iniciado."
+  },
+  {
+   "sistema": "Piso",
+   "situacao": "parcial",
+   "descricao": "Contrapiso concluído; porcelanato em parte da área social, com vícios."
+  },
+  {
+   "sistema": "Esquadrias",
+   "situacao": "concluido",
+   "descricao": "Janelas de alumínio instaladas."
+  },
+  {
+   "sistema": "Pintura",
+   "situacao": "nao_executado",
+   "descricao": "Não iniciada."
+  }
+ ],
+ "grau_risco_global": "critico",
+ "justificativa_grau_global": "A classificação decorre da armadura exposta no pilar P7 (A-03), que requer tratamento imediato; as demais anomalias são de prioridade 2.",
+ "criterio_fissuras": "adotou-se a denominação fissura para aberturas até 0,5 mm e trinca acima desse valor (critério usual na literatura técnica); aberturas medidas com fissurômetro."
+}

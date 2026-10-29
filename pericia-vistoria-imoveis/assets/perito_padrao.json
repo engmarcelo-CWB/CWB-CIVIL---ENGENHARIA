@@ -1,0 +1,15 @@
+{
+  "nome": "Marcelo de Lima Ferreira",
+  "titulo": "Engenheiro Civil",
+  "registro": "CREA-SC 1797156/D",
+  "registros_adicionais": ["Visto CREA-PR 194776/V"],
+  "art": "",
+  "empresa": {
+    "razao_social": "CWB Civil Projetos e Construções Ltda",
+    "cnpj": "29.988.500/0001-65",
+    "endereco": "R. Miguel Maoski, 182, Sala 05, Centro, Tijucas do Sul/PR, CEP 83.190-078",
+    "telefone": "(41) 9765-7133",
+    "email": "eng.marcelo@cwbcivil.com.br"
+  },
+  "logo": ""
+}
